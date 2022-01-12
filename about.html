@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>About us</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .bg{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(image/45.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .bg h1{
+        font-size: 60px;
+        text-align: center;
+        color: #f7f7f7;
+    }
+    .gallery h2{
+        font-size: 30px;
+        color: #f7f7f7;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    div.gallery {
+        align-items: center;
+  margin: 50px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  float: left;
+  width: 300px;
+}
+
+    div.gallery:hover {
+  border: 1px solid #777;
+}
+
+    div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+    div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #ccc;
+}
+.gallery .img{
+    height: auto;
+    width: 300px;
+}
+.gallery .sp{
+    height: 200px;
+    width: 300px;
+}
+</style>
+<body>
+    <div class="bg">
+        <h1>About Us</h1>
+        <div class="gallery">
+            <h2>ROOM</h2>
+            <a target="_blank" href="image/room.jpg">
+              <img src="image/room.jpg" alt="Cinque Terre" class="img">
+            </a>
+            <div class="desc">There are 200 expensive rooms with air condition,television and internet access.You can have rooms for your expected rate easily.</div>
+          </div>
+          
+          <div class="gallery">
+            <h2>Spa</h2>
+            <a target="_blank" href="image/spa.jpg"> 
+              <img src="image/spa.jpg" alt="Forest"  class="sp">
+            </a>
+            <div class="desc">We have spas for each floors.In our spa there are wellness facilities include sauna,gym, and treatment rooms.expected rate easily.</div>
+          </div>
+          
+          <div class="gallery">
+            <h2>Pool</h2>
+            <a target="_blank" href="image/pool.jpg">
+              <img src="image/pool.jpg" alt="Northern Lights" class="img">
+            </a>
+            <div class="desc">You can enjoy your pool time with blue and green nature colour.Very calm and sweet experience will be have in our pool environment.</div>
+          </div>
+    </div>
+</body>
+</html>

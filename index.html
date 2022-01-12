@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel Paradise</title>   
+</head>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    /*backgroun image*/
+    .banner{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(image/45.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    /*navbar*/
+    header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:transparent;
+    padding: 1px ;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+.navbar{
+    margin-right: 10px;
+}
+.logo{
+    margin: -50px;
+    padding: -70px;
+    margin-left: 10px;
+}
+header .navbar a{
+    margin-top: -10;
+    font-size: 20px;
+    margin-left: 50px;
+    color:white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+}
+header .navbar a:hover{
+    padding: 10px;
+    border: 2px solid rgb(59, 59, 59);
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+/*container*/
+.contain h1{
+    font-size: 65px;
+    color: #eee8e8;
+    text-align: center;
+    padding: 250px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.contain p{
+    color: #eee8e8fd;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-indent: 50px;
+    font-size: 20px;
+}
+marquee{
+    color: rgb(83, 83, 83);
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+</style>
+<body>
+    <div class="banner">
+        <!--navbar start-->
+        <header>
+            <a href="#" class="logo"><img src="image/logo.png" width="200px" height=""></a>
+            <nav class="navbar">
+                <a href="index.html">home</a>
+                <a href="about.html">about us</a>
+                <a href="contact.html">contact us</a>               
+            </nav>
+        </header>
+        <!--navbar End-->
+        <!--Container start-->
+        <div class="contain">
+            <h1>Hotel Paradise</h1>
+            <p>Hotel paradise is a beautiful combination of traditional and modern facilities.200 super exclusive guest rooms available with modern amenities such as air condition,television and internet access. You can have a look of our Queens' Mall and the variety of our beautiful crafts.Our kind and sweet staff members will provide the best service to you.</p>
+            <marquee width="100%" direction="left" height="100px">
+                join with hotel paradise and enjoy your vacation.
+                </marquee> 
+        </div>
+        <!--Container end-->
+    </div>
+</body>
+</html>
